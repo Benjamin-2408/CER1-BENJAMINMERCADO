@@ -1,0 +1,29 @@
+    *{background-color:FFC133;}
+    h1{
+        color:darkgoldenrod;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    h2{color:blueviolet;
+        text-align: center;
+    }
+    h3{
+        color:brown;
+        text-align: center;
+
+    }
+img
+{
+    width: 300 px;
+    height: 300 px;
+}
+img.alineadoTextoImagenArriba{
+    vertical-align: text-top;  
+  }
+  img.alineadoTextoImagenCentro{
+    vertical-align: middle;
+    /* Ojo vertical-align: text-middle no existe*/
+  }
+  img.alineadoTextoImagenAbajo{
+    vertical-align: text-bottom;  
+  }
